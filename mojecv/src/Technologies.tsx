@@ -48,7 +48,7 @@ function Technologies() {
 
             <ul className="mx-2">
                 {filteredTechnologies.map((tech) => (
-                    <li key={tech.id} className="font-mono">
+                    <li key={tech.id} className="font-mono text-xl">
                         <strong>{tech.name}</strong> {tech.level}
                     </li>
                 ))}
@@ -77,12 +77,35 @@ const technologies: Technology[] = [
 
     },
     {
+        id: 13,
+        name: "Asp.NET Core",
+        language: "C#",
+        level: "Srednio-zaawansowany",
+        projects: []
+    },
+
+    {
         id: 2,
         name: "Hibernate/JPA",
         level: "Srednio-zaawansowany",
         language: "Java",
         projects: []
 
+
+    },
+    {
+        id: 6,
+        name: "Entity Framework",
+        level: "Srednio-zaawansowany",
+        language: "C#",
+        projects: []
+    },
+    {
+        id: 7,
+        name: "Razor",
+        level: "Srednio-zaawansowany",
+        language: "C#",
+        projects: []
 
     },
     {
@@ -106,28 +129,7 @@ const technologies: Technology[] = [
         language: "C#",
         projects: []
     },
-    {
-        id: 6,
-        name: "Entity Framework",
-        level: "Srednio-zaawansowany",
-        language: "C#",
-        projects: []
-    },
-    {
-        id: 7,
-        name: "Razor",
-        level: "Srednio-zaawansowany",
-        language: "C#",
-        projects: []
 
-    },
-    {
-        id: 8,
-        name: "Flask",
-        language: "Python",
-        level: "Bardzo podstawowy",
-        projects: []
-    },
     {
         id: 9,
         name: "Swing",
@@ -149,6 +151,15 @@ const technologies: Technology[] = [
         level: "Podstawowy",
         projects: []
     },
+
+    {
+        id: 8,
+        name: "Flask",
+        language: "Python",
+        level: "Bardzo podstawowy",
+        projects: []
+    },
+   
     {
         id: 12,
         name: "React",
@@ -156,14 +167,7 @@ const technologies: Technology[] = [
         level: "Bardzo podstawowy",
         projects: []
     },
-    {
-        id: 13,
-        name: "Asp.NET Core",
-        language: "C#",
-        level: "Srednio-zaawansowany",
-        projects: []
-    }
-
+   
 
 
 ]
