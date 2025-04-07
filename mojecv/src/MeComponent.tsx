@@ -39,7 +39,7 @@ const MeElement =
         <h3 className="font-mono text-2xl mx-2 mt-3" > &#128196; Pobierz moje CV</h3>
         <div className="mx-2 my-3">
             <a
-                href="/Jakub_Dabrowski_CV.pdf"
+                href="/JakubDabrowskiCV.pdf"
                 download
                 className="bg-amber-500 hover:bg-amber-600 text-white font-mono px-4 py-2 rounded-md shadow-md transition duration-300"
             >
