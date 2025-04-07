@@ -12,10 +12,10 @@ const Me = {
     email: "polichronowe@gmail.com",
     city: "Bialystok",
     age: 22,
-    school: "Politachnika Bialostocka Wydzial Informatyki",
+    school: "Politechnika Bialostocka Wydzial Informatyki",
     course: "Informatyka i Ekonometria",
     year: 3,
-    description: "Jestem studentem Informatyki i Ekonometri na 3 roku, moja pasja jest tworzenie aplikacji, w szczegolnosci w technologiach Java Spring Web oraz Asp.Net Core. Lubie uczyc sie nowych technologii, budowac projekty od zera i rozwiazywac realne problemy. W przyszlosci chcialbym rozwijac sie jako backend developer lub fullstack. Dodatkowo interesuje sie tez modelowaniem i analiza danych. W wolnych chwilach uwielbiam sluchac winyli z lat 70 i jezdzic na rowerze."
+    description: "Jestem studentem Informatyki i Ekonometrii na 3 roku, moja pasja jest tworzenie aplikacji, w szczegolnosci w technologiach Java Spring Web oraz Asp.Net Core. Lubie uczyc sie nowych technologii, budowac projekty od zera i rozwiazywac realne problemy. W przyszlosci chcialbym rozwijac sie jako backend developer lub fullstack. Dodatkowo interesuje sie tez modelowaniem i analiza danych. W wolnych chwilach uwielbiam sluchac winyli z lat 70 i jezdzic na rowerze."
 }
 
 
