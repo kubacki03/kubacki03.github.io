@@ -25,7 +25,7 @@ const MeElement =
         <h2 className="font-mono text-3xl mx-2">Wiek: {Me.age} lata</h2>
         <h2 className="font-mono text-3xl mx-2">&#128205; {Me.city}</h2>
         <h2 className="font-mono text-3xl mx-2">&#128222; {Me.phone} </h2>
-        <h2 className="font-mono text-3xl mx-2"> &#128231; {Me.email}</h2>
+        <h2 className="font-mono md:text-3xl sm:text-xl  mx-2"> &#128231; {Me.email}</h2>
 
         
 
