@@ -79,13 +79,13 @@ type Project = {
 
 
 const projects: Project[] = [
-    { lang: "Python", name: "Ksiegowanie", description: "Aplikacja webowa ulatwiajaca prowadzenie kont ksiegowych w firmie", github: "https://github.com/kubacki03/AccountingWebApp.git", demo: "" },
+    { lang: "Python", name: "Ksiegowanie", description: "Aplikacja webowa ulatwiajaca prowadzenie kont ksiegowych w firmie", github: "https://github.com/kubacki03/AccountingWebApp.git", demo: "https://youtu.be/rM0imLPcLf0" }, //git
     { lang: "Python", name: "Analiza danych", description: "Projekt sluzy do modelowania a w przyszlosci do analizy i prognozowania danych dotyczacych rocznej emisji CO2 w Polsce", github: "https://github.com/kubacki03/PythonProject.git", demo: "" },
-    { lang: "Python", name: "Analiza wielowymiarowa danych", description: "Projekt analizy wielowymiarowej zmiennej jakosc zycia w wojewodztwach", github: "https://github.com/kubacki03/statWebApp.git", demo: "" },
+    { lang: "Python", name: "Analiza wielowymiarowa danych", description: "Projekt analizy wielowymiarowej zmiennej jakosc zycia w wojewodztwach", github: "https://github.com/kubacki03/statWebApp.git", demo: "https://youtu.be/FztD9q8nv5o" },
     { lang: "C#", name: "Monte Carlo Casino", description: "Projekt kasyna online", github: "https://github.com/kubacki03/MonteCarlo-Casino.git", demo: "https://drive.google.com/file/d/10lQV5FzIoWe3IUnJnW6jPc_q2rL5V7pw/view?usp=sharing" },
-    { lang: "C#", name: "Jira", description: "Jira-like projekt do zarzadzania projektami", github: "https://github.com/kubacki03/Jira.git", demo: "https://drive.google.com/file/d/16lScJfdYcOq7r1IZF9qea8wEJddNo-K3/view?usp=sharing" },
-    { lang: "C#", name: "Sklep Online", description: "sklep online z rozszerzonymi funkcjonalnosciami", github: "https://github.com/kubacki03/Sklep-Online-WebApp.git", demo: "https://youtu.be/gEpwFOSvnXw" },
-    { lang: "C#", name: "Hotel", description: "Hotel-WebApp to prosta strona internetowa umozliwiajaca logowanie oraz rezerwacje pokoi w hotelu", github: "https://github.com/kubacki03/Hotel-WebApp.git", demo: "https://youtu.be/Njk9nd5GJx4" },
+    { lang: "C#", name: "Jira", description: "Jira-like projekt do zarzadzania projektami", github: "https://github.com/kubacki03/Jira.git", demo: "https://youtu.be/ZdTvzKR5b94" }, //git
+    { lang: "C#", name: "Sklep Online", description: "sklep online z rozszerzonymi funkcjonalnosciami", github: "https://github.com/kubacki03/Sklep-Online-WebApp.git", demo: "https://youtu.be/gEpwFOSvnXw" }, //git
+    { lang: "C#", name: "Hotel", description: "Hotel-WebApp to prosta strona internetowa umozliwiajaca logowanie oraz rezerwacje pokoi w hotelu", github: "https://github.com/kubacki03/Hotel-WebApp.git", demo: "https://youtu.be/kAdftqyzGWg" },//git
     { lang: "C#", name: "Duolingo type app", description: "Aplikacja webowa stworzona do nauki jezykow obcych, ktora wykorzystuje OpenAI API do generowania dynamicznych materialow edukacyjnych, zadan praktycznych oraz quizow.", github: "https://github.com/kubacki03/Duolingo.git", demo: "https://youtu.be/dCM9Afysi50" },
     { lang: "C#", name: "Aplikacja osobisty asystent", description: "Osobisty asystent ProjektWPF to prosta aplikacja asystenta, ktora ma pomagac w codziennych czynnosciach", github: "https://github.com/kubacki03/ProjektWPF.git", demo: "https://youtu.be/RX7q7QCLsFM" },
     { lang: "C", name: "Interpreter polecen Linux", description: "Projekt cmd, ktory wykonuje skrypty, obsluguje potoki, przekierowywanie std i obsluge sygnalow oraz wspolbieznosc", github: "https://github.com/kubacki03/Podstawowe-cmd-dla-linux.git", demo: "" },

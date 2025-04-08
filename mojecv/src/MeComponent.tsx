@@ -27,15 +27,22 @@ const MeElement =
         <h2 className="font-mono text-3xl mx-2">&#128222; {Me.phone} </h2>
         <h2 className="font-mono text-3xl mx-2"> &#128231; {Me.email}</h2>
 
+        
+
         <div className="my-3">
             <h2 className="font-mono text-2xl mx-2 ">&#127979; Wyksztalcenie</h2>
             <p className="font-mono text-xl mx-2">{Me.school}</p>
             <p className="font-mono text-xl mx-2">{Me.course}, {Me.year} rok</p>
         </div>
 
+        <div className="m-3">
+        <h3 className="font-mono text-2xl ">Certyfikaty:</h3>
+        <p className="font-mono text-xl ">Beginner: Google Cloud Data Analytics Certificate</p>
+    </div>
         <h3 className="font-mono text-2xl mx-2">&#128102; O mnie</h3>
         <h3 className="font-mono text-xl mx-2">{Me.description}</h3>
 
+        
         <h3 className="font-mono text-2xl mx-2 mt-3" > &#128196; Pobierz moje CV</h3>
         <div className="mx-2 my-3">
             <a
