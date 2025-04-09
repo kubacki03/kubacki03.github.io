@@ -84,7 +84,7 @@ const projects: Project[] = [
     { lang: "Python", name: "Analiza wielowymiarowa danych", description: "Projekt analizy wielowymiarowej zmiennej jakosc zycia w wojewodztwach", github: "https://github.com/kubacki03/statWebApp.git", demo: "https://youtu.be/FztD9q8nv5o" },
     { lang: "C#", name: "Monte Carlo Casino", description: "Projekt kasyna online", github: "https://github.com/kubacki03/MonteCarlo-Casino.git", demo: "https://drive.google.com/file/d/10lQV5FzIoWe3IUnJnW6jPc_q2rL5V7pw/view?usp=sharing" },
     { lang: "C#", name: "Jira", description: "Jira-like projekt do zarzadzania projektami", github: "https://github.com/kubacki03/Jira.git", demo: "https://youtu.be/ZdTvzKR5b94" }, //git
-    { lang: "C#", name: "Sklep Online", description: "sklep online z rozszerzonymi funkcjonalnosciami", github: "https://github.com/kubacki03/Sklep-Online-WebApp.git", demo: "https://youtu.be/gEpwFOSvnXw" }, //git
+    { lang: "C#", name: "Sklep Online", description: "Sklep online z rozszerzonymi funkcjonalnosciami", github: "https://github.com/kubacki03/Sklep-Online-WebApp.git", demo: "https://youtu.be/gEpwFOSvnXw" }, //git
     { lang: "C#", name: "Hotel", description: "Hotel-WebApp to prosta strona internetowa umozliwiajaca logowanie oraz rezerwacje pokoi w hotelu", github: "https://github.com/kubacki03/Hotel-WebApp.git", demo: "https://youtu.be/kAdftqyzGWg" },//git
     { lang: "C#", name: "Duolingo type app", description: "Aplikacja webowa stworzona do nauki jezykow obcych, ktora wykorzystuje OpenAI API do generowania dynamicznych materialow edukacyjnych, zadan praktycznych oraz quizow.", github: "https://github.com/kubacki03/Duolingo.git", demo: "https://youtu.be/dCM9Afysi50" },
     { lang: "C#", name: "Aplikacja osobisty asystent", description: "Osobisty asystent ProjektWPF to prosta aplikacja asystenta, ktora ma pomagac w codziennych czynnosciach", github: "https://github.com/kubacki03/ProjektWPF.git", demo: "https://youtu.be/RX7q7QCLsFM" },
@@ -93,6 +93,8 @@ const projects: Project[] = [
     { lang: "Java", name: "BarberShop", description: "Aplikacja do rezerwacji wizyt w barbershopie", github: "https://github.com/kubacki03/BarberWeb.git", demo: "https://youtu.be/UMDIT9wWuG4" },
     { lang: "Java", name: "Backend do to-do-list like aplikacji", description: "Aplikacja, ktora sluzy za backend do apki typu To-Do-List.", github: "https://github.com/kubacki03/ToDoListJavaBackend.git", demo: "https://youtu.be/3r_7X_QT2Ak" },
     { lang: "TypeScript", name: "Frontend do to-do-list aplikacji", description: "Aplikacja w Angularze, ktora sluzy jako frontend", github: "https://github.com/kubacki03/ToDoList.git", demo: "https://youtu.be/3r_7X_QT2Ak" },
+    { lang: "C#", name: "RecipeBook .net + react", description: "Interaktywana aplikacja do tworzenia i udostepniania przepisow, autoryzacja z jwt", github: "https://github.com/kubacki03/CookBook.git", demo:"" }
+
 ]
 
 

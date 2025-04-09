@@ -9,7 +9,7 @@ const Me = {
     name: "Jakub",
     surname: "Dabrowski",
     phone: "727 791 153",
-    email: "polichronowe@gmail.com",
+    email: "jakubdabrowski2003@wp.pl",
     city: "Bialystok",
     age: 22,
     school: "Politechnika Bialostocka Wydzial Informatyki",
@@ -25,7 +25,7 @@ const MeElement =
         <h2 className="font-mono text-3xl mx-2">Wiek: {Me.age} lata</h2>
         <h2 className="font-mono text-3xl mx-2">&#128205; {Me.city}</h2>
         <h2 className="font-mono text-3xl mx-2">&#128222; {Me.phone} </h2>
-        <h2 className="font-mono md:text-3xl sm:text-xl  mx-2"> &#128231; {Me.email}</h2>
+        <h2 className="font-mono md:text-3xl sm:text-lg  mx-2"> &#128231; {Me.email}</h2>
 
         
 
@@ -36,13 +36,24 @@ const MeElement =
         </div>
 
         <div className="m-3">
-        <h3 className="font-mono text-2xl ">Certyfikaty:</h3>
-        <p className="font-mono text-xl ">Beginner: Google Cloud Data Analytics Certificate</p>
+       
+            
     </div>
         <h3 className="font-mono text-2xl mx-2">&#128102; O mnie</h3>
         <h3 className="font-mono text-xl mx-2">{Me.description}</h3>
 
-        
+
+        <div className="m-2">
+        <h3 className="font-mono text-2xl ">Certyfikaty:</h3>
+        <p className="font-mono text-xl ">Google Cloud Data Analytics Certificate</p>
+        <button
+            className="font-mono relative text-amber-600 transition-all duration-300 hover:text-blue-500 hover:animate-pulse text-lg font-semibold"
+            onClick={() => window.open("https://www.credly.com/users/jakub-dabrowski.a6c1e57c", "_blank")}
+        >
+            Zobacz moje credly
+        </button>
+    </div>
+
         <h3 className="font-mono text-2xl mx-2 mt-3" > &#128196; Pobierz moje CV</h3>
         <div className="mx-2 my-3">
             <a
@@ -52,6 +63,7 @@ const MeElement =
             >
                  Pobierz CV
             </a>
+
         </div>
     </>
 
