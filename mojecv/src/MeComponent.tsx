@@ -15,10 +15,11 @@ const Me = {
     email: "jakubdabrowski2003@wp.pl",
     city: "Białystok",
     age: 22,
-    school: "Politechnika Bialostocka Wydział Informatyki",
+    school: "Politechnika Białostocka Wydział Informatyki",
     course: "Informatyka i Ekonometria",
     year: 3,
-    description: "Jestem studentem Informatyki i Ekonometrii na 3 roku, moją pasją jest tworzenie aplikacji, w szczególności w technologiach Java Spring Web oraz Asp.Net Core. Lubię uczyć sie nowych technologii, budować projekty od zera i rozwiązywać realne problemy. W przyszłości chciałbym rozwijać sie jako backend developer lub fullstack. Dodatkowo interesuje sie też modelowaniem i analizą danych. W wolnych chwilach uwielbiam słuchać winyli z lat 70 i jeździć na rowerze."
+    github:"https://github.com/kubacki03",
+    description: "Jestem studentem Informatyki i Ekonometrii na 3 roku, moją pasją jest tworzenie aplikacji, w szczególności w technologiach Java Spring Web oraz Asp.Net Core. Lubię uczyć się nowych technologii, budować projekty od zera i rozwiązywać realne problemy. W przyszłości chciałbym rozwijać sie jako backend developer lub fullstack. Dodatkowo interesuję się też modelowaniem i analizą danych. W wolnych chwilach uwielbiam słuchać winyli z lat 70 i jeździć na rowerze."
 }
 
 
@@ -36,7 +37,7 @@ const MeElement =
         
 
         <div className="my-3">
-            <h2 className="font-mono text-2xl mx-2 ">&#127979; Wyksztalcenie</h2>
+            <h2 className="font-mono text-2xl mx-2 ">&#127979; Wykształcenie</h2>
             <p className="font-mono text-xl mx-2">{Me.school}</p>
             <p className="font-mono text-xl mx-2">{Me.course}, {Me.year} rok</p>
         </div>
@@ -50,6 +51,15 @@ const MeElement =
         <h3 className="font-mono text-2xl mx-2">&#128102; O mnie</h3>
         <h3 className="font-mono text-xl mx-2">{Me.description}</h3>
 
+        <div className="mt-2">
+            <h1 className="font-mono text-2xl mx-2">💻Github</h1>
+            <p className="font-mono text-xl mx-2">
+                <a href={Me.github} target="_blank" rel="noopener noreferrer">
+                    Tu znajdziesz moje wszystkie projekty https://github.com/kubacki03
+                </a>
+            </p>
+
+        </div>
         <div className="mt-3 mx-2">
             <h3 className="font-mono text-2xl  ">Języki</h3>
             <ul>
@@ -60,6 +70,8 @@ const MeElement =
                 ))}
             </ul>
         </div>
+
+        
 
         <div className="m-2">
         <h3 className="font-mono text-2xl ">Certyfikaty:</h3>

@@ -23,12 +23,22 @@ const languages: Language[] = [
     {
         id: 1,
         name: "Java",
-        avgLevel: "Srednio-zaawansowany",
+        avgLevel: "Średnio-zaawansowany",
     },
     {
         id: 2,
         name: "C#",
-        avgLevel: "Srednio-zaawansowany",
+        avgLevel: "Średnio-zaawansowany",
+    },
+    {
+        id: 6,
+        name: "SQL",
+        avgLevel: "Średnio-zaawansowany",
+    },
+    {
+        id: 7,
+        name: "HTML",
+        avgLevel: "Średnio-zaawansowany",
     },
     {
         id: 3,
@@ -45,16 +55,7 @@ const languages: Language[] = [
         name: "C",
         avgLevel: "Podstawowy",
     },
-    {
-        id: 6,
-        name: "SQL",
-        avgLevel: "Srednio-zaawansowany",
-    },
-    {
-        id: 7,
-        name: "HTML",
-        avgLevel: "Srednio-zaawansowany",
-    },
+   
 ];
 
 

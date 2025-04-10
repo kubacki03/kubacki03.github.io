@@ -107,7 +107,7 @@ const projects: Project[] = [
     { lang: "Java", name: "BarberShop", description: "Aplikacja do rezerwacji wizyt w barbershopie", github: "https://github.com/kubacki03/BarberWeb.git", demo: "https://youtu.be/UMDIT9wWuG4", tags: ["Spring Web", "Spring Security","TailwindCSS" ] },
     { lang: "Java", name: "Backend do to-do-list like aplikacji", description: "Aplikacja, która służy za backend do aplikacji typu To-Do-List.", github: "https://github.com/kubacki03/ToDoListJavaBackend.git", demo: "https://youtu.be/3r_7X_QT2Ak",tags:["Spring Security","Spring Web","Jwt","RestApi"] },
     { lang: "TypeScript", name: "Frontend do to-do-list like aplikacji", description: "Aplikacja w Angularze, która służy jako frontend", github: "https://github.com/kubacki03/ToDoList.git", demo: "https://youtu.be/3r_7X_QT2Ak",tags:["Angular","TailwindCSS"] },
-    { lang: "C#", name: "RecipeBook .net + react", description: "Interaktywana aplikacja do tworzenia i udostępniania przepisow.", github: "https://github.com/kubacki03/CookBook.git", demo:"",tags:[".Net","React","RestApi","Jwt","EntityFramework"] }
+    { lang: "TypeScript", name: "RecipeBook .net + react", description: "Interaktywana aplikacja do tworzenia i udostępniania przepisow.", github: "https://github.com/kubacki03/CookBook.git", demo:"",tags:[".Net","React","RestApi","Jwt","EntityFramework"] }
 
 ]
 

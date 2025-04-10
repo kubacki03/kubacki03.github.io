@@ -138,6 +138,7 @@ const technologies: Technology[] = [
         level: "Podstawowy",
         projects: []
     },
+
     {
         id: 10,
         name: "TailwindCSS",
@@ -152,6 +153,13 @@ const technologies: Technology[] = [
         level: "Podstawowy",
         projects: []
     }, 
+    {
+        id: 12,
+        name: "React",
+        language: "TypeScript",
+        level: "Podstawowy",
+        projects: []
+    },
     {
         id: 13,
         name: "Google Cloud Platform",
@@ -168,13 +176,7 @@ const technologies: Technology[] = [
         projects: []
     },
    
-    {
-        id: 12,
-        name: "React",
-        language: "TypeScript",
-        level: "Bardzo podstawowy",
-        projects: []
-    },
+   
    
 
 
