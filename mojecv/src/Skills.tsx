@@ -1,7 +1,7 @@
-function Skills() {
+﻿function Skills() {
     return (
         <div>
-            <h2 className="m-2 font-mono text-2xl font-bold">Znajomosc jezykow</h2>
+            <h2 className="m-2 font-mono text-2xl font-bold">Znajomość języków</h2>
             <ul className="mx-2">
                 {languages.map((lang) => (
                     <li key={lang.id} className="font-mono text-xl">

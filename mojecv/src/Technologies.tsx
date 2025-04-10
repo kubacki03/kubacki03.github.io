@@ -1,3 +1,4 @@
+﻿import React from "react";
 import { useState } from "react";
 
 function Technologies() {
@@ -16,11 +17,11 @@ function Technologies() {
 
     return (
         <div>
-            <h2 className="m-2 font-mono text-2xl font-bold">Znajomosc technologii</h2>
+            <h2 className="m-2 font-mono text-2xl font-bold">Znajomość technologii</h2>
 
             <div className="flex gap-4 m-2">
                 <div>
-                    <label className="block text-sm">Jezyk:</label>
+                    <label className="block text-sm">Język:</label>
                     <select
                         value={selectedLanguage}
                         onChange={(e) => setSelectedLanguage(e.target.value)}
@@ -71,7 +72,7 @@ const technologies: Technology[] = [
     {
         id: 1,
         name: "Spring Web",
-        level: "Srednio-zaawansowany",
+        level: "Średnio-zaawansowany",
         language: "Java",
         projects: []
 
@@ -80,14 +81,14 @@ const technologies: Technology[] = [
         id: 13,
         name: "Asp.NET Core",
         language: "C#",
-        level: "Srednio-zaawansowany",
+        level: "Średnio-zaawansowany",
         projects: []
     },
 
     {
         id: 2,
         name: "Hibernate/JPA",
-        level: "Srednio-zaawansowany",
+        level: "Średnio-zaawansowany",
         language: "Java",
         projects: []
 
@@ -96,14 +97,14 @@ const technologies: Technology[] = [
     {
         id: 6,
         name: "Entity Framework",
-        level: "Srednio-zaawansowany",
+        level: "Średnio-zaawansowany",
         language: "C#",
         projects: []
     },
     {
         id: 7,
         name: "Razor",
-        level: "Srednio-zaawansowany",
+        level: "Średnio-zaawansowany",
         language: "C#",
         projects: []
 
@@ -148,6 +149,13 @@ const technologies: Technology[] = [
         id: 11,
         name: "Angular",
         language: "TypeScript",
+        level: "Podstawowy",
+        projects: []
+    }, 
+    {
+        id: 13,
+        name: "Google Cloud Platform",
+        language: "Chmura",
         level: "Podstawowy",
         projects: []
     },
