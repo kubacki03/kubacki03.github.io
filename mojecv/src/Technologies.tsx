@@ -78,14 +78,6 @@ const technologies: Technology[] = [
 
     },
     {
-        id: 13,
-        name: "Asp.NET Core",
-        language: "C#",
-        level: "Średnio-zaawansowany",
-        projects: []
-    },
-
-    {
         id: 2,
         name: "Hibernate/JPA",
         level: "Średnio-zaawansowany",
@@ -93,75 +85,67 @@ const technologies: Technology[] = [
         projects: []
 
 
-    },
-    {
-        id: 6,
-        name: "Entity Framework",
-        level: "Średnio-zaawansowany",
-        language: "C#",
-        projects: []
-    },
-    {
-        id: 7,
-        name: "Razor",
-        level: "Średnio-zaawansowany",
-        language: "C#",
-        projects: []
-
-    },
-    {
+    }, {
         id: 3,
         name: "Spring Security",
         level: "Podstawowy",
         language: "Java",
         projects: []
     },
+
     {
         id: 4,
-        name: "Thymealeaf",
-        level: "Podstawowy",
-        language: "Java",
+        name: "Asp.NET Core",
+        language: "C#",
+        level: "Średnio-zaawansowany",
         projects: []
     },
     {
         id: 5,
+        name: "Entity Framework",
+        level: "Średnio-zaawansowany",
+        language: "C#",
+        projects: []
+    },
+
+ 
+   
+
+   
+    
+    {
+        id: 6,
         name: "WPF",
         level: "Podstawowy",
         language: "C#",
         projects: []
     },
 
-    {
-        id: 9,
-        name: "Swing",
-        language: "Java",
-        level: "Podstawowy",
-        projects: []
-    },
+   
 
     {
-        id: 10,
+        id: 7,
         name: "TailwindCSS",
         language: "CSS",
         level: "Podstawowy",
         projects: []
     },
     {
-        id: 11,
+        id: 8,
         name: "Angular",
         language: "TypeScript",
         level: "Podstawowy",
         projects: []
     }, 
     {
-        id: 12,
+        id: 9,
         name: "React",
         language: "TypeScript",
         level: "Podstawowy",
         projects: []
     },
     {
-        id: 13,
+        id: 10,
         name: "Google Cloud Platform",
         language: "Chmura",
         level: "Podstawowy",
@@ -169,7 +153,7 @@ const technologies: Technology[] = [
     },
 
     {
-        id: 8,
+        id: 11,
         name: "Flask",
         language: "Python",
         level: "Bardzo podstawowy",

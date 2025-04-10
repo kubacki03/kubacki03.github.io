@@ -19,7 +19,7 @@ const Me = {
     course: "Informatyka i Ekonometria",
     year: 3,
     github:"https://github.com/kubacki03",
-    description: "Jestem studentem Informatyki i Ekonometrii na 3 roku, moją pasją jest tworzenie aplikacji, w szczególności w technologiach Java Spring Web oraz Asp.Net Core. Lubię uczyć się nowych technologii, budować projekty od zera i rozwiązywać realne problemy. W przyszłości chciałbym rozwijać sie jako backend developer lub fullstack. Dodatkowo interesuję się też modelowaniem i analizą danych. W wolnych chwilach uwielbiam słuchać winyli z lat 70 i jeździć na rowerze."
+    description: "Jestem studentem Informatyki i Ekonometrii na 3 roku, moją pasją jest tworzenie aplikacji. Szczególnie dobrze czuję się w środowiskach backendowych, gdzie mogę projektować i budować logiczne fundamenty aplikacji. Najlepiej odnajduję się w technologiach webowych takich jak Asp.Net Core i Java Spring Web. Lubię uczyć się nowych technologii, budować projekty od zera i rozwiązywać realne problemy. Mimo, że wewnątrz jestem backendowcem to nie boję się tworzyć frontendu, ponieważ wiem, że jest on bardzo ważny w ocenie aplikacji przez użytkowników końcowych. W przyszłości chciałbym rozwijać sie jako backend developer lub fullstack. Dodatkowo interesuję się też modelowaniem i analizą danych. W wolnych chwilach uwielbiam słuchać winyli z lat 70 i jeździć na rowerze."
 }
 
 

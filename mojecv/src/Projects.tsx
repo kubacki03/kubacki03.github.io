@@ -33,7 +33,6 @@ function Projects() {
                         <h1 className="font-mono text-xl font-bold">{pro.name}</h1>
                         <h2 className="font-mono text-lg">{pro.description}</h2>
 
-                 
                         <div className="my-2 flex flex-wrap gap-2">
                             {pro.tags.map((tag, index) => (
                                 <span
@@ -45,7 +44,7 @@ function Projects() {
                             ))}
                         </div>
 
-                        <p>
+                        <div>
                             <button
                                 className="font-mono relative text-amber-600 transition-all duration-300 hover:text-blue-500 hover:animate-pulse text-lg font-semibold"
                                 onClick={() => window.open(pro.github, "_blank")}
@@ -56,8 +55,8 @@ function Projects() {
                             <div className="inline-block relative group mx-2">
                                 <button
                                     className={`font-mono relative text-lg font-semibold transition-all duration-300 ${pro.demo
-                                            ? "text-amber-600 hover:text-green-800 hover:animate-pulse"
-                                            : "text-gray-400 cursor-not-allowed"
+                                        ? "text-amber-600 hover:text-green-800 hover:animate-pulse"
+                                        : "text-gray-400 cursor-not-allowed"
                                         }`}
                                     onClick={pro.demo ? () => window.open(pro.demo, "_blank") : undefined}
                                     disabled={!pro.demo}
@@ -71,10 +70,11 @@ function Projects() {
                                 )}
                             </div>
                             <hr />
-                        </p>
+                        </div>
                     </li>
                 ))}
             </ul>
+
 
         </div>
     );
