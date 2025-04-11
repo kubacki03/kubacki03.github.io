@@ -52,12 +52,18 @@ const MeElement =
         <h3 className="font-mono text-xl mx-2">{Me.description}</h3>
 
         <div className="mt-2">
-            <h1 className="font-mono text-2xl mx-2">💻Github</h1>
-            <p className="font-mono text-xl mx-2">
-                <a href={Me.github} target="_blank" rel="noopener noreferrer">
-                    Tu znajdziesz moje wszystkie projekty https://github.com/kubacki03
+            <h1 className="font-mono text-2xl mx-2">💻Github- tu mnie znajdziesz</h1>
+            <div className="mx-2 my-3">
+                <a
+                    href={Me.github}
+                   
+                    className="bg-amber-500 hover:bg-amber-600 text-white font-mono px-4 py-2 rounded-md shadow-md transition duration-300"
+                >
+                    Mój github
+
                 </a>
-            </p>
+
+            </div>
 
         </div>
         <div className="mt-3 mx-2">
@@ -91,7 +97,7 @@ const MeElement =
                 download
                 className="bg-amber-500 hover:bg-amber-600 text-white font-mono px-4 py-2 rounded-md shadow-md transition duration-300"
             >
-                 Pobierz CV
+                 Pobierz PDF
             </a>
 
         </div>
